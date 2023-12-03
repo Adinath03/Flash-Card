@@ -1,0 +1,148 @@
+const questions = [
+  {
+    id: 1,
+    category: "Java",
+    question: "Abstract class vs Interface?",
+    answer: "Methods, Parameters",
+  },
+  {
+    id: 2,
+    category: "Java",
+    question: "Method overloading in Java?",
+    answer: "Same name, Diff parameters",
+  },
+  {
+    id: 3,
+    category: "Java",
+    question: "Purpose of 'this' keyword in Java?",
+    answer: "Current instance reference",
+  },
+  {
+    id: 4,
+    category: "Java",
+    question: "Purpose of 'final' keyword?",
+    answer: "Constant, No modification",
+  },
+  {
+    id: 5,
+    category: "Java",
+    question: "Significance of 'static' keyword?",
+    answer: "Class members, No instance",
+  },
+  {
+    id: 6,
+    category: "Java",
+    question: "Exception handling in Java?",
+    answer: "Try, Catch, Finally",
+  },
+  {
+    id: 7,
+    category: "Java",
+    question: "Purpose of 'super' keyword?",
+    answer: "Parent class reference",
+  },
+  {
+    id: 8,
+    category: "Java",
+    question: "Types of inheritance in Java?",
+    answer: "Single, Multiple (Interfaces), Multilevel",
+  },
+  {
+    id: 9,
+    category: "Java",
+    question: "Concept of multithreading in Java?",
+    answer: "Concurrent threads",
+  },
+  {
+    id: 10,
+    category: "Java",
+    question: "How does garbage collection work?",
+    answer: "Reclaims memory, Unused objects",
+  },
+  {
+    id: 11,
+    category: "SQL",
+    question: "Difference between INNER JOIN and LEFT JOIN?",
+    answer: "Match vs All rows",
+  },
+  {
+    id: 12,
+    category: "SQL",
+    question: "Purpose of GROUP BY clause?",
+    answer: "Grouping, Summary rows",
+  },
+  {
+    id: 13,
+    category: "SQL",
+    question: "Concept of normalization in database design?",
+    answer: "Reduce redundancy, Improve integrity",
+  },
+  {
+    id: 14,
+    category: "SQL",
+    question: "What is a stored procedure?",
+    answer: "Precompiled SQL statements",
+  },
+  {
+    id: 15,
+    category: "SQL",
+    question: "Purpose of HAVING clause?",
+    answer: "Filter results after grouping",
+  },
+  {
+    id: 16,
+    category: "Java",
+    question: "Role of 'volatile' keyword?",
+    answer: "Thread-safe variable",
+  },
+  {
+    id: 17,
+    category: "Java",
+    question: "Concept of lambda expressions?",
+    answer: "Concise anonymous functions",
+  },
+  {
+    id: 18,
+    category: "Java",
+    question: "Purpose of 'equals' method?",
+    answer: "Compare object contents",
+  },
+  {
+    id: 19,
+    category: "Java",
+    question: "Concept of 'try-with-resources'?",
+    answer: "Automatic resource management",
+  },
+  {
+    id: 20,
+    category: "Java",
+    question: "Role of 'transient' keyword?",
+    answer: "Not serialized, Sensitive data",
+  },
+  {
+    id: 21,
+    category: "SQL",
+    question: "Concept of an SQL View?",
+    answer: "Virtual table, Result of SELECT",
+  },
+  {
+    id: 22,
+    category: "SQL",
+    question: "Purpose of UNION operator?",
+    answer: "Combine results, Remove duplicates",
+  },
+  {
+    id: 23,
+    category: "SQL",
+    question: "Concept of a foreign key?",
+    answer: "Links tables, Referential integrity",
+  },
+  {
+    id: 24,
+    category: "SQL",
+    question: "Purpose of INDEX in SQL?",
+    answer: "Speed up retrieval, Data structure",
+  },
+];
+
+export default questions;
